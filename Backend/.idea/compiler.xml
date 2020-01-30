@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Backend-FirstApp-master" />
         <module name="pierwszyBlog" />
+        <module name="Backend" />
+        <module name="Backend-FirstApp-master" />
       </profile>
     </annotationProcessing>
   </component>
