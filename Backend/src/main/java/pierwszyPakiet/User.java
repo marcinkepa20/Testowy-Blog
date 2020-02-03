@@ -4,6 +4,7 @@ import lombok.*;
 
 import javax.persistence.*;
 
+
 @Entity
 @Table(name="users")
 @Getter
@@ -23,4 +24,15 @@ public class User {
 
     @NonNull
     private String password;
+
+    public String getUsername() {
+        return username;
+    }
+    public String getPassword() {
+        return password;
+    }
+    public Integer getId(){
+        return id;
+    }
+
 }
