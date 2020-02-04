@@ -1,4 +1,4 @@
-package pierwszyPakiet;
+package pierwszyPakiet.users;
 
 import lombok.*;
 
@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name="users")
+@Table(name= "users")
 @Getter
 @Setter
 @AllArgsConstructor
@@ -25,14 +25,6 @@ public class User {
     @NonNull
     private String password;
 
-    public String getUsername() {
-        return username;
-    }
-    public String getPassword() {
-        return password;
-    }
-    public Integer getId(){
-        return id;
-    }
+
 
 }
